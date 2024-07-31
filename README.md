@@ -13,7 +13,7 @@ Antes de começar, certifique-se de ter o Node.js e o npm ou Yarn instalados.
 Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/todo-list-react-typescript.git
+git clone https://github.com/egaldino03/todo-list-react.git
 ```
 
 ## Navegue até o diretório do projeto:
@@ -49,8 +49,6 @@ npm start
 ```bash
 yarn start
 ```
-
-O aplicativo estará disponível em http://localhost:3000.
 
 ## 🔍 Funcionalidades
 
