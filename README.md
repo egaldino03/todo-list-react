@@ -15,6 +15,12 @@ Bem-vindo ao projeto Todo-List! Este repositório contém uma aplicação de lis
 - CSS Modules - Módulos CSS para escopo de estilos.
 - TypeScript - Superset de JavaScript para tipagem estática.
 
+## 📬 Contato
+
+Se você tiver alguma dúvida ou sugestão, entre em contato:
+
+- erickga2014@gmail.com
+
 
 Siga estas instruções para obter uma cópia do projeto em funcionamento em sua máquina local para desenvolvimento e testes.
 Pré-requisitos
@@ -62,9 +68,3 @@ npm start
 ```bash
 yarn start
 ```
-
-📬 Contato
-
-Se você tiver alguma dúvida ou sugestão, entre em contato:
-
-- erickga2014@gmail.com
