@@ -3,6 +3,19 @@
 Bem-vindo ao projeto Todo-List! Este repositório contém uma aplicação de lista de tarefas desenvolvida com React, CSS Modules para estilização e TypeScript para uma experiência de desenvolvimento mais robusta e tipada.
 🚀 Começando
 
+## 🔍 Funcionalidades
+
+- Adicionar novas tarefas.
+- Marcar tarefas como concluídas.
+- Remover tarefas.
+
+## 🚀 Tecnologias Utilizadas
+
+- React - Biblioteca para construção de interfaces de usuário.
+- CSS Modules - Módulos CSS para escopo de estilos.
+- TypeScript - Superset de JavaScript para tipagem estática.
+
+
 Siga estas instruções para obter uma cópia do projeto em funcionamento em sua máquina local para desenvolvimento e testes.
 Pré-requisitos
 
@@ -49,19 +62,6 @@ npm start
 ```bash
 yarn start
 ```
-
-## 🔍 Funcionalidades
-
-- Adicionar novas tarefas.
-- Marcar tarefas como concluídas.
-- Remover tarefas.
-- Visualizar lista de tarefas pendentes e concluídas.
-
-## 🚀 Tecnologias Utilizadas
-
-- React - Biblioteca para construção de interfaces de usuário.
-- CSS Modules - Módulos CSS para escopo de estilos.
-- TypeScript - Superset de JavaScript para tipagem estática.
 
 📬 Contato
 
