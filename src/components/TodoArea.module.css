@@ -57,18 +57,27 @@
     color: var(--gray-300);
     font-weight: bold;
     text-align: center;
+    
 }
 
 .subtitle {
     font-size: 1rem;
     line-height: 1.4;
     color: var(--gray-300);
+    text-align: center;
 }
 
 .statsWrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (max-width: 768px){
@@ -81,4 +90,9 @@
         width: 100%;
         justify-content: space-between;
     }
+
+    .textContainer {
+        gap: 0.75rem;
+    }
+
 }

@@ -46,7 +46,7 @@ export default function TodoArea({
       ) : (
         <section className={styles.noContentWrapper}>
           <ClipboardList size={56} color={`var(--gray-300)`} strokeWidth={1} />
-          <div>
+          <div className={styles.textContainer}>
             <p className={styles.noContentText}>
               Você ainda não tem tarefas cadastradas
             </p>
