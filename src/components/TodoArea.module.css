@@ -1,0 +1,84 @@
+.todoArea {
+    margin-top: 4rem;
+    width: min(50vw ,46rem);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.statsWrapper > p {
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.statsWrapper > span {
+    background: var(--gray-400);
+    color: var(--gray-100);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+
+.todosCreated {
+    color: var(--blue);
+}
+
+.todosConcluded {
+    color: var(--purple);
+}
+
+.todos {
+    margin-top: 1.5rem;
+    list-style-type: none;
+
+}
+
+.todoItem{
+    margin-top: 0.75rem;
+}
+
+.noContentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.noContentText {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--gray-300);
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--gray-300);
+}
+
+.statsWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .statsWrapper {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
